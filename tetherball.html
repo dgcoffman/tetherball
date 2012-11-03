@@ -36,11 +36,11 @@
       <a class="brand" href="#">Project name</a>
       <div class="nav-collapse collapse">
         <p class="navbar-text pull-right">
-          {{loginButtons}}
+          <a href='#login'>login</a>
         </p>
         <ul class="nav">
           <li class="active">
-            <a href="#">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
             <a href="#about">About</a>
@@ -55,7 +55,14 @@
 </div>
 
 <div class="container-fluid">
-  hello tetherball
+  
+  {{> home}}
+
+  {{> about}}
+  
+  {{> contact}}
+
+  {{> login}}
 
   <hr>
 
@@ -65,3 +72,28 @@
 
 </div>
 </body>
+
+<template name="home">
+  {{#if selected }}
+    <h3>Home</h3>
+  {{/if}} 
+</template>
+
+<template name="login">
+  {{#if selected }}
+    <h3>Login</h3>
+    {{loginButtons}}
+  {{/if}} 
+</template>
+
+<template name="about">
+  {{#if selected }}
+    <h3>About</h3>
+  {{/if}} 
+</template>
+
+<template name="contact">
+  {{#if selected }}
+    <h3>Contact</h3>
+  {{/if}} 
+</template>
