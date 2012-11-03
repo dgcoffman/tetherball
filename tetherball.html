@@ -25,7 +25,29 @@
 
 <body>
 
-<div class="navbar navbar-inverse navbar-fixed-top">
+{{> navigation }}
+
+<div class="container-fluid">
+  
+  {{> home}}
+
+  {{> about}}
+  
+  {{> contact}}
+
+  {{> login}}
+
+  <hr>
+
+  <footer>
+    <p>&copy; Tetherball 2012</p>
+  </footer>
+
+</div>
+</body>
+
+<template name='navigation'>
+  <div class="navbar navbar-inverse navbar-fixed-top">
   <div class="navbar-inner">
     <div class="container-fluid">
       <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -53,25 +75,7 @@
       <!--/.nav-collapse --> </div>
   </div>
 </div>
-
-<div class="container-fluid">
-  
-  {{> home}}
-
-  {{> about}}
-  
-  {{> contact}}
-
-  {{> login}}
-
-  <hr>
-
-  <footer>
-    <p>&copy; Company 2012</p>
-  </footer>
-
-</div>
-</body>
+</template>
 
 <template name="home">
   {{#if selected }}
