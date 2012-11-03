@@ -16,9 +16,19 @@ Template.login.selected = function () {
   return Session.equals('currentView', 'login');
 };
 
+Template.navigation.user = function () {
+
+  return Meteor.user();
+};
+
 var Router = Backbone.Router.extend({
         routes: {
+            "logout": "logOut",
             "*actions": "defaultRoute" // Backbone will try match the route above first
+        },
+        logOut: function ()
+        {
+          Meteor.logout();
         }
     });
 
