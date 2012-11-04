@@ -8,61 +8,10 @@
 	"buffers":
 	[
 		{
-			"file": "/home/dgc/Projects/parties/client/parties.css",
+			"file": "public/index.html",
 			"settings":
 			{
-				"buffer_size": 1116,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/dgc/Projects/parties/client/client.js",
-			"settings":
-			{
-				"buffer_size": 8288,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/dgc/Projects/parties/client/parties.html",
-			"settings":
-			{
-				"buffer_size": 5373,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "<head>\n<title>tetherball</title>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<meta name=\"description\" content=\"\">\n<meta name=\"author\" content=\"\">\n<style type=\"text/css\"> \n      .sidebar-nav {\n        padding: 9px 0;\n      }\n    </style>\n\n<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->\n<!--[if lt IE 9]>\n<script src=\"http://html5shim.googlecode.com/svn/trunk/html5.js\"></script>\n<![endif]-->\n\n</head>\n\n<body>\n\n<div class=\"navbar navbar-inverse navbar-fixed-top\">\n  <div class=\"navbar-inner\">\n    <div class=\"container-fluid\">\n      <a class=\"btn btn-navbar\" data-toggle=\"collapse\" data-target=\".nav-collapse\">\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n      </a>\n      <a class=\"brand\" href=\"#\">Project name</a>\n      <div class=\"nav-collapse collapse\">\n        <p class=\"navbar-text pull-right\">\n          Logged in as\n          <a href=\"#\" class=\"navbar-link\">Username</a>\n        </p>\n        <ul class=\"nav\">\n          <li class=\"active\">\n            <a href=\"#\">Home</a>\n          </li>\n          <li>\n            <a href=\"#about\">About</a>\n          </li>\n          <li>\n            <a href=\"#contact\">Contact</a>\n          </li>\n        </ul>\n      </div>\n      <!--/.nav-collapse --> </div>\n  </div>\n</div>\n\n<div class=\"container-fluid\">\n  <div class=\"row-fluid\">\n    <div class=\"span3\">\n      <div class=\"well sidebar-nav\">\n        <ul class=\"nav nav-list\">\n          <li class=\"nav-header\">Sidebar</li>\n          <li class=\"active\">\n            <a href=\"#\">Link</a>\n          </li>\n          <li>\n            <a href=\"#\">Link</a>\n          </li>\n          <li>\n            <a href=\"#\">Link</a>\n          </li>\n          <li>\n            <a href=\"#\">Link</a>\n          </li>\n          <li class=\"nav-header\">Sidebar</li>\n          <li>\n            <a href=\"#\">Link</a>\n          </li>\n          <li>\n            <a href=\"#\">Link</a>\n          </li>\n          <li>\n            <a href=\"#\">Link</a>\n          </li>\n          <li>\n            <a href=\"#\">Link</a>\n          </li>\n          <li>\n            <a href=\"#\">Link</a>\n          </li>\n          <li>\n            <a href=\"#\">Link</a>\n          </li>\n          <li class=\"nav-header\">Sidebar</li>\n          <li>\n            <a href=\"#\">Link</a>\n          </li>\n          <li>\n            <a href=\"#\">Link</a>\n          </li>\n          <li>\n            <a href=\"#\">Link</a>\n          </li>\n        </ul>\n      </div>\n      <!--/.well --> </div>\n    <!--/span-->\n    <div class=\"span9\">\n      <div class=\"hero-unit\">\n        <h1>Hello, world!</h1>\n        <p>\n          This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.\n        </p>\n        <p>\n          <a class=\"btn btn-primary btn-large\">Learn more &raquo;</a>\n        </p>\n      </div>\n      <div class=\"row-fluid\">\n        <div class=\"span4\">\n          <h2>Heading</h2>\n          <p>\n            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.\n          </p>\n          <p>\n            <a class=\"btn\" href=\"#\">View details &raquo;</a>\n          </p>\n        </div>\n        <!--/span-->\n        <div class=\"span4\">\n          <h2>Heading</h2>\n          <p>\n            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.\n          </p>\n          <p>\n            <a class=\"btn\" href=\"#\">View details &raquo;</a>\n          </p>\n        </div>\n        <!--/span-->\n        <div class=\"span4\">\n          <h2>Heading</h2>\n          <p>\n            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.\n          </p>\n          <p>\n            <a class=\"btn\" href=\"#\">View details &raquo;</a>\n          </p>\n        </div>\n        <!--/span--> </div>\n      <!--/row-->\n      <div class=\"row-fluid\">\n        <div class=\"span4\">\n          <h2>Heading</h2>\n          <p>\n            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.\n          </p>\n          <p>\n            <a class=\"btn\" href=\"#\">View details &raquo;</a>\n          </p>\n        </div>\n        <!--/span-->\n        <div class=\"span4\">\n          <h2>Heading</h2>\n          <p>\n            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.\n          </p>\n          <p>\n            <a class=\"btn\" href=\"#\">View details &raquo;</a>\n          </p>\n        </div>\n        <!--/span-->\n        <div class=\"span4\">\n          <h2>Heading</h2>\n          <p>\n            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.\n          </p>\n          <p>\n            <a class=\"btn\" href=\"#\">View details &raquo;</a>\n          </p>\n        </div>\n        <!--/span--> </div>\n      <!--/row--> </div>\n    <!--/span--> </div>\n  <!--/row-->\n\n  <hr>\n\n  <footer>\n    <p>&copy; Company 2012</p>\n  </footer>\n\n</div>\n<!--/.fluid-container-->{{> hello}}</body>\n\n<template name=\"hello\">\n  <h1>Hello World!</h1>\n  {{greeting}}\n  <input type=\"button\" value=\"Click\" />\n</template>",
-			"file": "tetherball.html",
-			"file_size": 6111,
-			"file_write_time": 1351752998000000,
-			"settings":
-			{
-				"buffer_size": 6111,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/dgc/.netrc",
-			"settings":
-			{
-				"buffer_size": 207,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/dgc/.Xauthority",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/dgc/.xsession-errors",
-			"settings":
-			{
-				"buffer_size": 4911,
+				"buffer_size": 2896,
 				"line_ending": "Unix"
 			}
 		}
@@ -99,16 +48,28 @@
 	},
 	"file_history":
 	[
-		"/home/dgc/.config/sublime-text-2/Packages/User/Tag Package.sublime-settings",
-		"/home/dgc/Projects/parties/client/client.js",
+		"/home/dgc/Projects/stack",
 		"/home/dgc/Projects/tetherball/tetherball.html",
+		"/home/dgc/Projects/todos/client/todos.html",
+		"/home/dgc/Projects/todos/client/todos.js",
+		"/home/dgc/Projects/parties/client/parties.html",
+		"/home/dgc/Projects/tetherball/tetherball.js",
+		"/home/dgc/Projects/todos/server/bootstrap.js",
+		"/home/dgc/Projects/todos/server/publish.js",
+		"/home/dgc/Projects/parties/client/client.js",
+		"/home/dgc/Projects/parties/model.js",
+		"/home/dgc/Projects/tetherball/.meteor/packages",
+		"/home/dgc/Projects/parties/client/parties.css",
+		"/home/dgc/.netrc",
+		"/home/dgc/.Xauthority",
+		"/home/dgc/.xsession-errors",
+		"/home/dgc/.config/sublime-text-2/Packages/User/Tag Package.sublime-settings",
 		"/home/dgc/Projects/tetherball/tetherball.sublime-project",
-		"/home/dgc/Projects/parties/server/server.js",
-		"/home/dgc/Projects/parties/model.js"
+		"/home/dgc/Projects/parties/server/server.js"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -122,6 +83,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"any_list_selected",
+			"navigate",
+			"}\n",
 			"    \n"
 		],
 		"highlight": true,
@@ -140,194 +104,31 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/home/dgc/Projects/parties/client/parties.css",
+					"file": "public/index.html",
 					"settings":
 					{
-						"buffer_size": 1116,
+						"buffer_size": 2896,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								984,
+								984
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/dgc/Projects/parties/client/client.js",
-					"settings":
-					{
-						"buffer_size": 8288,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/home/dgc/Projects/parties/client/parties.html",
-					"settings":
-					{
-						"buffer_size": 5373,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								372,
-								372
-							]
-						],
-						"settings":
-						{
-							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "tetherball.html",
-					"settings":
-					{
-						"buffer_size": 6111,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								459,
-								459
-							]
-						],
-						"settings":
-						{
-							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/home/dgc/.netrc",
-					"settings":
-					{
-						"buffer_size": 207,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/home/dgc/.Xauthority",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/home/dgc/.xsession-errors",
-					"settings":
-					{
-						"buffer_size": 4911,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -394,6 +195,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 154.0,
+	"side_bar_width": 172.0,
 	"status_bar_visible": true
 }
