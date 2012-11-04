@@ -8,9 +8,9 @@ insecure
 preserve-inputs
 bootstrap
 underscore
-accounts-ui
 accounts-password
 accounts-google
 jquery
 accounts-facebook
 backbone
+accounts-ui
