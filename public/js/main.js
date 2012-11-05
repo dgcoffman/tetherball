@@ -7,7 +7,8 @@ var AppRouter = Backbone.Router.extend({
         "wines/add"         : "addWine",
         "wines/:id"         : "wineDetails",
         "about"             : "about",
-        "login"             : "login"
+        "login"             : "login",
+        "admin"             : "admin"
     },
 
     initialize: function () {
@@ -22,6 +23,15 @@ var AppRouter = Backbone.Router.extend({
         $('#content').html(this.loginView.el);
         //this.loginView.selectMenuItem('home-menu');
     },
+
+    admin: function() {
+        if (!this.adminView) {
+            this.adminView = new AdminView();
+        }
+        $('#content').html(this.adminView.el);
+        //this.loginView.selectMenuItem('home-menu');
+    },
+
 
     home: function (id) {
         if (!this.homeView) {
@@ -64,7 +74,7 @@ var AppRouter = Backbone.Router.extend({
 
 });
 
-utils.loadTemplate(['HomeView', 'LoginView', 'HeaderView', 'WineView', 'WineListItemView', 'AboutView'], function() {
+utils.loadTemplate(['HomeView', "AdminView", 'LoginView', 'HeaderView', 'WineView', 'WineListItemView', 'AboutView'], function() {
     app = new AppRouter();
     Backbone.history.start();
 });

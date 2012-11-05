@@ -92,7 +92,7 @@ app.put('/wines/:id', wine.updateWine);
 app.delete('/wines/:id', wine.deleteWine);
 
 app.post('/login', 
-  passport.authenticate('local', { successRedirect: '/#', failureRedirect: '/#login', failureFlash: true }));
+  passport.authenticate('local', { successRedirect: '/#admin', failureRedirect: '/#login', failureFlash: true }));
 
 app.get('/logout', function(req, res){
   req.logOut();
